@@ -1,0 +1,27 @@
+/*To be easy to work with other elements, margin and padding don't affect their size */
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;}
+/* styling divs */
+    #container1{border: 1px, solid, black;
+width:20px;
+height: 20px;
+
+}
+/* hover effect on divs */
+.special {background-color: red;}
+/* positioning the divs */
+#container {display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   width : 950px;
+    
+}
+/* positioning the container in the center of the page */
+body {display: flex;
+
+align-items: center; /* not working */
+}
+/* positiong and styling the button */
+#button1 {margin: 50px;
+padding: 5px;}
